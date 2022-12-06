@@ -8,9 +8,9 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Trixta IDE",
   tagline: "",
-  url: "https://trixtateam.github.io/docs",
-  baseUrl: "/",
-  onBrokenLinks: "throw",
+  url: "https://trixtateam.github.io",
+  baseUrl: "/docs/",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
 
@@ -58,7 +58,7 @@ const config = {
       navbar: {
         title: "Trixta IDE",
         logo: {
-          alt: "My Site Logo",
+          alt: "Trixta Logo",
           src: "img/trixta-logo.png",
         },
         items: [
@@ -83,7 +83,7 @@ const config = {
             items: [
               {
                 label: "Intro",
-                to: "/docs/intro",
+                to: "/docs/docs/intro",
               },
             ],
           },
