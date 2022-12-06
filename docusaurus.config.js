@@ -8,8 +8,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Trixta IDE",
   tagline: "",
-  url: "https://trixtateam.github.io",
-  baseUrl: "/docs/",
+  url: "https://trixtateam.github.io/docs/",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
