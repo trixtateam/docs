@@ -6,7 +6,7 @@ The Trixta IDE (Integrated Development Environment) is the go to place to start 
 
 The IDE address is: `ui.trixta.io`
 
-You’ll need to include a space domain to tell the IDE which space to connect to. The following url instructs the IDE to connect to the space that is found at `[trixta-demo.space.trixta.io](http://trixta-demo.space.trixta.io)` 
+You’ll need to include a space domain to tell the IDE which space to connect to. The following url instructs the IDE to connect to the space that is found at `[trixta-demo.space.trixta.io](http://trixta-demo.space.trixta.io)`
 
 [`https://ui.trixta.io/?space=trixta-demo.space.trixta.io`](https://ui.trixta.io/?space=trixta-demo.space.trixta.io)
 
@@ -45,7 +45,7 @@ When presented with a Login dialog, you’ll need to enter in your identity (usu
 
 </aside>
 
-![Untitled](Getting%20started%20with%20Trixta/Untitled.png)
+![Untitled](Untitled.png)
 
 ## Important Note: First use panel visibility
 
@@ -53,23 +53,23 @@ The very first time you use the IDE it will appear blank, we have some work to d
 
 Initially appears blank:
 
-![Untitled](Getting%20started%20with%20Trixta/Untitled%201.png)
+![Untitled](Untitled%201.png)
 
 Find the Trixta menu item and select `Navigation` to reveal the navigation panel on the left. Repeat the process for `Search`
 
-![Untitled](Getting%20started%20with%20Trixta/Untitled%202.png)
+![Untitled](Untitled%202.png)
 
 ## Left Panel
 
-![Untitled](Getting%20started%20with%20Trixta/Untitled%203.png)
+![Untitled](Untitled%203.png)
 
 ### Navigation
 
 The Navigation panel currently has two sub-panels, **Recent** and **Browse**.
 
-**Recent** shows a list of your 10 last recently opened Items. This list is associated with your user account so it will be synced across different devices and sessions. It is useful to quickly pick up where you left off. 
+**Recent** shows a list of your 10 last recently opened Items. This list is associated with your user account so it will be synced across different devices and sessions. It is useful to quickly pick up where you left off.
 
-![Untitled](Getting%20started%20with%20Trixta/Untitled%204.png)
+![Untitled](Untitled%204.png)
 
 <aside>
 💡 At this time only Flows are listed in the recent list. In later versions we may see other items listed here and potentially a means to filter by type.
@@ -83,7 +83,7 @@ The Navigation panel currently has two sub-panels, **Recent** and **Browse**.
 
 **Browse** shows a tree structure with everything inside the Space. This can be used to orientate, find and open various different views.
 
-![Untitled](Getting%20started%20with%20Trixta/Untitled%205.png)
+![Untitled](Untitled%205.png)
 
 <aside>
 💡 Currently we require that you click the refresh button (top right) after making a change like adding or removing something from the space. In future this will be automatic.
@@ -98,7 +98,7 @@ The Search panel currently has two sub-panels, **Space** and **Step**.
 
 In the below screenshot the word “example” was searched for.
 
-![Untitled](Getting%20started%20with%20Trixta/Untitled%206.png)
+![Untitled](Untitled%206.png)
 
 Step (Advanced)
 
@@ -114,7 +114,7 @@ Whenever an item is selected in the navigation or search, we will show a view, i
 
 The following is a step view / aka flow view. The view resembles a flowchart of sorts and is suited for understanding how the various steps within the flow are composed.
 
-![Untitled](Getting%20started%20with%20Trixta/Untitled%207.png)
+![Untitled](Untitled%207.png)
 
 ### Overlays (Advanced)
 
@@ -126,7 +126,7 @@ The right panel is generally used to display and edit the details of something y
 
 Settings for anything that is selected is usually highly specific and dependent on what it is that was selected. In the following examples and step was selected of a particular type, the settings of that type are displayed in the right panel. At this point you could view or edit the settings.
 
-![Untitled](Getting%20started%20with%20Trixta/Untitled%208.png)
+![Untitled](Untitled%208.png)
 
 ### Save Changes
 
@@ -137,4 +137,4 @@ Settings for anything that is selected is usually highly specific and dependent 
 
 ## Next…
 
-[Choose your starting style](Choose%20your%20starting%20style.md)
+[Choose your starting style](../Choose%20your%20starting%20style/index.md)

@@ -64,7 +64,7 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "Trixta Documentation",
+            docId: "index",
             position: "left",
             label: "Docs",
           },
@@ -83,7 +83,7 @@ const config = {
             items: [
               {
                 label: "Intro",
-                to: "/docs/docs/Trixta Documentation",
+                to: "/docs/docs",
               },
             ],
           },

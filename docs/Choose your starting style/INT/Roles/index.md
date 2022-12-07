@@ -2,7 +2,7 @@
 
 ## Understanding what a Role is
 
-In Trixta, a Role is a logical grouping of Interactions that an Agent can more easily make sense of and assume the function of. 
+In Trixta, a Role is a logical grouping of Interactions that an Agent can more easily make sense of and assume the function of.
 
 If you can imagine a Space that has 100 different ways of Interacting with it, it stands to reason that dividing that up into 10 Roles (each with 10 Interactions), would make a Role 10 times easier to understand and act on from the perspective of an Agent. Of course we wouldn’t just arbitrarily divide Interactions up like this, we would group them logically in a way that was appropriate for the Product or Organisation you are operating in.
 
@@ -18,25 +18,25 @@ The purpose of a Role is to simplify and divide up the responsibilities in your 
 
 ## Role view
 
-Using Navigation → Browse, look for Roles underneath Space. 
+Using Navigation → Browse, look for Roles underneath Space.
 
 Selecting this will open up the Roles view which will list all the Roles you’ve added to your Space as well as provide options to Create new, Edit or Remove them.
 
-![Untitled](Roles/Untitled.png)
+![Untitled](Untitled.png)
 
 ## Create new Role
 
 To create a new Role, enter a Name into the input box and hit Create.
 
-![Untitled](Roles/Untitled%201.png)
+![Untitled](Untitled%201.png)
 
 Confirm the dialog:
 
-![Untitled](Roles/Untitled%202.png)
+![Untitled](Untitled%202.png)
 
 Your new Role should appear in the View:
 
-![Untitled](Roles/Untitled%203.png)
+![Untitled](Untitled%203.png)
 
 <aside>
 💡 Be sure to scroll down if you cannot see your new Role, initially it may be added to the bottom before later getting arranged alphabetically.
@@ -47,13 +47,13 @@ Your new Role should appear in the View:
 
 Remove a Role by clicking the trash can icon at the top right of the block.
 
-![Untitled](Roles/Untitled%204.png)
+![Untitled](Untitled%204.png)
 
 ## Edit a Role
 
 To Edit a Role, click on it in the view and the Role Settings panel should appear. Here you can change the Name, Description, Tags, and set whether the Role is `unrestricted` or not. An unrestricted Role would mean that all Agents, regardless of their Role allocation, can assume the Role.
 
-![Untitled](Roles/Untitled%205.png)
+![Untitled](Untitled%205.png)
 
 <aside>
 💡 Role settings are getting an upgrade, until then we have used tags to add experimental settings to roles which will become part of the form in future
@@ -62,11 +62,11 @@ To Edit a Role, click on it in the view and the Role Settings panel should appea
 
 Here is a complete list of tags that serve a function when added to a Role:
 
-- `group:###` - [Viewing individual Roles](Roles.md)
-- `grouped` - [Role Grouping](Roles.md)
-- `auth:role:###` - [Role Authorization](Roles.md)
-- `auth:type:role_reaction` - [Role Authorization](Roles.md)
-- `auth:reaction:###` - [Role Authorization](Roles.md)
+- `group:###` - [Viewing individual Roles](#viewing-individual-roles)
+- `grouped` - [Role Grouping](#role-grouping)
+- `auth:role:###` - [Role Authorization](#role-authorization)
+- `auth:type:role_reaction` - [Role Authorization](#role-authorization)
+- `auth:reaction:###` - [Role Authorization](#role-authorization)
 
 ## Default Roles
 
@@ -82,7 +82,7 @@ Earlier we viewed all Roles together in one view. There also exists a view for l
 
 In the Browse tree structure, you may notice the `group:###` tags taking effect. In the screenshot, the Roles: Buyer, Escrow and Seller all have a tag that reads `group:escrow` added to them. This groups them in the tree to help you focus on associated Roles.
 
-![Untitled](Roles/Untitled%206.png)
+![Untitled](Untitled%206.png)
 
 ## Role Authorization
 
@@ -110,13 +110,13 @@ Note that an Agent could be allocated Role access to more than one group if we w
 To enable this feature on a Role you would add the tag `grouped` to it. Now whenever an Agent tries to join a Role, they would also be required to specify which group.
 
 <aside>
-💡 Currently it is required to add custom authorization to Roles that are Grouped. [Role Authorization](Roles.md)
+💡 Currently it is required to add custom authorization to Roles that are Grouped. [Role Authorization](#role-authorization)
 
 </aside>
 
 ## Role Cheatsheet
 
-![Untitled](Roles/Untitled%207.png)
+![Untitled](Untitled%207.png)
 
 - The relationship between Roles and Agents is many-to-many.
 - Each Role can have Interactions linked to it, these are exclusive to the Role they are linked to.

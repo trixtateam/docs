@@ -4,7 +4,7 @@
 
 Interactions is the collective term for the two ways your Space interacts with the outside world, namely Actions and Reactions.
 
-In order to understand the difference between the two, it is good to know that these Interactions always belong to a Role, and Roles are assumed by Agents, so really when we talk about Interactions, we can think of Agents interacting with your Space. 
+In order to understand the difference between the two, it is good to know that these Interactions always belong to a Role, and Roles are assumed by Agents, so really when we talk about Interactions, we can think of Agents interacting with your Space.
 
 <aside>
 💡 If you haven’t learnt about Roles and Agents yet, don’t worry - just know that your Space interacts with the outside world via Agents who assume Roles to keep things simple.
@@ -22,15 +22,14 @@ communication or direct involvement with someone or something.
 So for now, when we talk about Interactions, let’s think of a Person interacting with your Space. With this as our example, let us discuss the main difference between Actions and Reactions. The biggest difference between Actions and Reactions is from where they originate:
 
 - Actions originate from the Person,
-    - Person sends an Action to the Space,
-    - In other words, the Person requests the Space to act.
-    - This is the start of a new process.
+  - Person sends an Action to the Space,
+  - In other words, the Person requests the Space to act.
+  - This is the start of a new process.
 
 - Reactions originate from the Space,
-    - The Space sends a Reaction to the Person,
-    - In other words, the Space requests the Person to react.
-    - This happens somewhere in the middle of a process started by some other Action.
-    
+  - The Space sends a Reaction to the Person,
+  - In other words, the Space requests the Person to react.
+  - This happens somewhere in the middle of a process started by some other Action.
 
 <aside>
 💡 The term ‘process’ is used loosely above, here we have general business or organisation process or workflow that happens in your product or service in mind.
@@ -43,15 +42,15 @@ Interactions provide a way for a Space to send and receive contextualized inform
 
 To view the Interactions on a Role, first find and select it from the Navigation tree. Try this now with the `everyone_anon` Role. In the middle pane you will see an overview of the Role including a list of Actions (on the left, in blue), and Reactions (on the right, in purple)
 
-![Untitled](Interactions/Untitled.png)
+![Untitled](Untitled.png)
 
 Clicking on Actions underneath the Role in the Navigation tree, you will get a view that is only for Actions of this Role.
 
-![Untitled](Interactions/Untitled%201.png)
+![Untitled](Untitled%201.png)
 
 Similarly, clicking on the Reactions underneath the Role in the Navigation tree, you will get a view that is only for Reactions of this Role.
 
-![Untitled](Interactions/Untitled%202.png)
+![Untitled](Untitled%202.png)
 
 <aside>
 💡 For both Actions and Reactions, there is an even more focused view which can be found if selecting a single Interaction in the Navigation tree. This will show a view dedicated to just the item selected.
@@ -68,11 +67,11 @@ The two most important attributes of an Action is its name and the shape of the 
 
 To create a new Action, enter in a Name into the input box and hit Create.
 
-![Untitled](Interactions/Untitled%203.png)
+![Untitled](Untitled%203.png)
 
 Confirm the dialog if the name and the Role is as you intended:
 
-![Untitled](Interactions/Untitled%204.png)
+![Untitled](Untitled%204.png)
 
 Your new Action should now appear on the Role.
 
@@ -81,40 +80,40 @@ Your new Action should now appear on the Role.
 
 </aside>
 
-![Untitled](Interactions/Untitled%205.png)
+![Untitled](Untitled%205.png)
 
 ### Removing an Action
 
 Remove an Action by clicking the trash can icon at the top right of the block.
 
-![Untitled](Interactions/Untitled%206.png)
+![Untitled](Untitled%206.png)
 
 ### Edit an Action
 
 To Edit an Action, click on it in the view and the Action Settings panel should appear.
 
-![Untitled](Interactions/Untitled%207.png)
+![Untitled](Untitled%207.png)
 
-**Actions settings:** 
+**Actions settings:**
 
 - Name,
 - Description,
 - Handler - this is what the Space will do when it receives this Action and is usually set to a Flow or None (if you want to disengage the Action for whatever reason),
 - Tags, used to add extra information or to provide extra functionality
-    
+
     <aside>
     💡 Action settings are getting an upgrade, until then we have used tags to add experimental settings to Actions which will become part of the form in future
-    
+
     </aside>
-    
+
     Here is a complete list of tags that serve a function when added to an Action:
-    
-    - `debug:true` - adding this will cause this Action to run in debug mode, be sure to remove it when no longer debugging. (Note: this will move to the Flow in a future upgrade)
-    - …
 
-![Untitled](Interactions/Untitled%208.png)
+  - `debug:true` - adding this will cause this Action to run in debug mode, be sure to remove it when no longer debugging. (Note: this will move to the Flow in a future upgrade)
+  - …
 
-The following schema and settings work with https://github.com/rjsf-team/react-jsonschema-form (rjsf). The schema follow the [Json Schema](https://json-schema.org/) standard. We use this schema to describe various data shapes in Trixta.
+![Untitled](Untitled%208.png)
+
+The following schema and settings work with <https://github.com/rjsf-team/react-jsonschema-form> (rjsf). The schema follow the [Json Schema](https://json-schema.org/) standard. We use this schema to describe various data shapes in Trixta.
 
 <aside>
 💡 Reading the documentation for rjsf will help with understanding how best to work with this: [https://react-jsonschema-form.readthedocs.io/en/latest/](https://react-jsonschema-form.readthedocs.io/en/latest/)
@@ -147,11 +146,11 @@ The response schema uses the same syntax as the request schema, but instead is u
 
 To create a new Reaction, enter in a Name into the input box and hit Create.
 
-![Untitled](Interactions/Untitled%209.png)
+![Untitled](Untitled%209.png)
 
 Confirm the dialog if the name and the Role is as you intended:
 
-![Untitled](Interactions/Untitled%2010.png)
+![Untitled](Untitled%2010.png)
 
 Your new Reaction should now appear on the Role.
 
@@ -159,31 +158,31 @@ Your new Reaction should now appear on the Role.
 
 Remove a Reaction by clicking the trash can icon at the top right of the block.
 
-![Untitled](Interactions/Untitled%2011.png)
+![Untitled](Untitled%2011.png)
 
 ### Edit a Reaction
 
 To Edit a Reaction, click on it in the view and the Reaction Settings panel should appear.
 
-![Untitled](Interactions/Untitled%2012.png)
+![Untitled](Untitled%2012.png)
 
-Rea**ctions settings:** 
+Rea**ctions settings:**
 
 - ~~Name,~~
 - Description,
 - Tags, used to add extra information or to provide extra functionality
-    
+
     <aside>
     💡 Reaction settings are getting an upgrade, until then we have used tags to add experimental settings to Reactions which will become part of the form in future
-    
-    </aside>
-    
-    Here is a complete list of tags that serve a function when added to an Reaction:
-    
-    - `debug:true` - adding this will cause this Reaction to run in debug mode, be sure to remove it when no longer debugging.
-    - `send:###` - [Send tags (Advanced)](Interactions.md)
 
-![Untitled](Interactions/Untitled%2013.png)
+    </aside>
+
+    Here is a complete list of tags that serve a function when added to an Reaction:
+
+  - `debug:true` - adding this will cause this Reaction to run in debug mode, be sure to remove it when no longer debugging.
+  - `send:###` - [Send tags (Advanced)](#send-tags-advanced)
+
+![Untitled](Untitled%2013.png)
 
 <aside>
 ⚠️ Beware, we discuss the settings below first the schema then the settings, in the UI above these two are in the opposite order and does not match the ordering of the Actions panel either. We will fix this, but until then pay attention to the name of the setting to know which is which.
@@ -192,11 +191,11 @@ Rea**ctions settings:**
 
 These work in the same way as the Action request schema and settings. Please refer back to that section for details:
 
-[The following schema and settings work with https://github.com/rjsf-team/react-jsonschema-form (rjsf). The schema follow the [Json Schema](https://json-schema.org/) standard. We use this schema to describe various data shapes in Trixta.](Interactions.md) 
+[The following schema and settings work with <https://github.com/rjsf-team/react-jsonschema-form> (rjsf). The schema follow the [Json Schema](https://json-schema.org/) standard. We use this schema to describe various data shapes in Trixta.](#actions)
 
 ### Implications of Reactions that do not request data
 
-In Trixta it is possible, even encouraged, to have Reactions whose request schemas are either null (nothing), or has an object in which each property’s data type is null (nothing). The implication here is that the Space is not requesting any information back. We say that this is **for Effect** (as opposed to the alternative: **for Response**). 
+In Trixta it is possible, even encouraged, to have Reactions whose request schemas are either null (nothing), or has an object in which each property’s data type is null (nothing). The implication here is that the Space is not requesting any information back. We say that this is **for Effect** (as opposed to the alternative: **for Response**).
 
 For e.g. receiving a push notification to say that your delivery is on its way, would be an example of a Request for Effect. The provider isn’t asking you to reply back to them as such, however they do want to have an Effect on you, they want you to now know that your delivery is on the way. You received information and that is the end of that specific Interaction.
 
@@ -207,15 +206,15 @@ For e.g. receiving a push notification to say that your delivery is on its way, 
 
 ## Interactions view
 
-The Interactions view is makes use of the schemas and settings of your Actions and Reactions to provide a sort of automatically generated UI. This UI is very useful when building in that you can test and prototype your work without waiting for an UI to be built as such. It is also a great learning tool to help you interact with your Space. It also comes in handy for when a team is unsure where a bug lies, this can quickly help determine whether an issue is in a custom interface or within the work done in Trixta. 
+The Interactions view is makes use of the schemas and settings of your Actions and Reactions to provide a sort of automatically generated UI. This UI is very useful when building in that you can test and prototype your work without waiting for an UI to be built as such. It is also a great learning tool to help you interact with your Space. It also comes in handy for when a team is unsure where a bug lies, this can quickly help determine whether an issue is in a custom interface or within the work done in Trixta.
 
 To show the Interactions view, first select it from the Trixta menu → Interactions → Interactions.
 
-![Untitled](Interactions/Untitled%2014.png)
+![Untitled](Untitled%2014.png)
 
 When shown the Interactions view looks something like this:
 
-![Untitled](Interactions/Untitled%2015.png)
+![Untitled](Untitled%2015.png)
 
 The idea here is that you can look at how what you have built feels like for an Agent fulfilling a particular Role, or how perhaps two Roles might experience things as they interact with each other via the Space. Either way it is important to first select one or more Roles in the Roles dropdown before you will see any applicable Actions and Reactions below.
 
@@ -224,7 +223,7 @@ The idea here is that you can look at how what you have built feels like for an 
 
 </aside>
 
-![Untitled](Interactions/Untitled%2016.png)
+![Untitled](Untitled%2016.png)
 
 You can further filter the Actions and Reaction by name, or tag by using a common separated list in the Filter box. The Show only action reactions checkbox is useful to hide all reactions that have no data, i.e. only show those that have been send to the Agent.
 
@@ -248,7 +247,7 @@ Coming soon…
 
 ## Interactions Cheatsheet
 
-![Untitled](Interactions/Untitled%2017.png)
+![Untitled](Untitled%2017.png)
 
 - Role have zero, one or many Actions or Reactions.
 - Interactions connect Roles to Flows.

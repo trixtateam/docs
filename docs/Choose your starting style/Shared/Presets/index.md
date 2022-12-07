@@ -25,27 +25,27 @@ Using Navigation → Browse, look for Presets underneath Space.
 
 Selecting this will open up the Presets view which will list all the Presets you’ve added to your Space as well as provide options to Create new, Edit or Remove them.
 
-![Untitled](Presets/Untitled.png)
+![Untitled](Untitled.png)
 
 ## Create new Preset
 
 To create a new Preset, enter in a Name into the input box and hit Create.
 
-![Untitled](Presets/Untitled%201.png)
+![Untitled](Untitled%201.png)
 
 Confirm the dialog if the name is as you intended:
 
-![Untitled](Presets/Untitled%202.png)
+![Untitled](Untitled%202.png)
 
 Your new Preset should appear in the View:
 
-![Untitled](Presets/Untitled%203.png)
+![Untitled](Untitled%203.png)
 
 ## Remove a Preset
 
 Remove a Preset by clicking the trash can icon at the top right of the block.
 
-![Untitled](Presets/Untitled%204.png)
+![Untitled](Untitled%204.png)
 
 ## Edit a Preset
 
@@ -56,7 +56,7 @@ To Edit a Preset, click on it in the view and the Preset Settings panel should a
 
 </aside>
 
-![Untitled](Presets/Untitled%205.png)
+![Untitled](Untitled%205.png)
 
 ## Presets to keep things flexible
 
@@ -64,7 +64,7 @@ Apart from providing sensible starting points, presets can also help act as poin
 
 ## Preset Cheatsheet
 
-![Untitled](Presets/Untitled%206.png)
+![Untitled](Untitled%206.png)
 
 A, B and C above are all examples of abstract things in the Space. We don’t specify what here because we want to show that Presets are potentially applied to anything in a Space.
 

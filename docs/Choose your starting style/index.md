@@ -20,8 +20,6 @@ The following table contains words and phrases that provide hints as to what eac
 | Bigger picture | Something in-between | Finer details |
 | Directing | Sequencing / Orchestrating | Configuring |
 
- 
-
 <aside>
 💡 Having any one of the above styles waxed, will lower the difficulty of learning the others because you will better understand the context in which you are doing something
 
@@ -59,18 +57,18 @@ The following table contains words and phrases that provide hints as to what eac
 
 </aside>
 
-![Untitled](Choose%20your%20starting%20style/Untitled.png)
+![Untitled](Untitled.png)
 
 ## Continue down a path…
 
 (If still unsure, start at the top with INT)
 
-[INT](Choose%20your%20starting%20style/INT.md)
+[INT](INT/index.md)
 
-[AGI](Choose%20your%20starting%20style/AGI.md)
+[AGI](AGI/index.md)
 
-[STR](Choose%20your%20starting%20style/STR.md)
+[STR](STR/index.md)
 
 ---
 
-[Shared](Choose%20your%20starting%20style/Shared.md)
+[Shared](Shared/index.md)
