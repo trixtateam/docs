@@ -2,7 +2,7 @@
 
 :::tip
 
-Be sure to have first gone through [Flows (Basic)](../Flows%20(Basic)/index.md) before continuing here…
+Be sure to have first gone through [Flows (Basic)](../Basic/index.md) before continuing here…
 
 :::
 
@@ -65,6 +65,7 @@ View the dialog, make any adjustments and submit to save the settings accordingl
 This entire section is more work for you than we would like. Ideally all things in Trixta should have sensible defaults to automatically give you great versioning settings and then only if you would like to tweak them, to let you do so.
 
 :::
+
 ### Settings
 
 The Settings panel will display what is current set on the Flow you are viewing. You can adjust them here.
