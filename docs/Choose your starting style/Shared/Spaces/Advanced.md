@@ -1,7 +1,7 @@
 # Spaces (Advanced)
 
 <aside>
-💡 Be sure to have first gone through [Spaces (Basic)](Spaces%20(Basic).md)  before continuing here…
+💡 Be sure to have first gone through [Spaces (Basic)](Basic.md)  before continuing here…
 
 </aside>
 

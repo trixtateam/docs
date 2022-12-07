@@ -10,7 +10,7 @@ const config = {
   tagline: "",
   url: "https://trixtateam.github.io",
   baseUrl: "/docs/",
-  onBrokenLinks: "warn",
+  onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
 

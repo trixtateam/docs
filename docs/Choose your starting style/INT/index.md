@@ -2,21 +2,21 @@
 
 Agents fulfil one or many Roles in your Space
 
-[Agents](INT/Agents.md)
+[Agents](Agents/index.md)
 
 Roles simplify and divide up the responsibilities in your Space
 
-[Roles](INT/Roles.md)
+[Roles](Roles/index.md)
 
 Interactions provide a way for a Space to send and receive contextualized information
 
-[Interactions](Shared/Interactions.md)
+[Interactions](../Shared/Interactions/index.md)
 
 Presets help others learn, improves productivity and keeps your Space flexible.
 
-[Presets](Shared/Presets.md)
+[Presets](../Shared/Presets/index.md)
 
-[Spaces (Basic)](Shared/Spaces/Spaces%20(Basic).md)
+[Spaces (Basic)](../Shared/Spaces/Basic/index.md)
 
 Common INT knowledge gaps
 

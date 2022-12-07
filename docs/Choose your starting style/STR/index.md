@@ -1,20 +1,20 @@
 # STR
 
-[Steps](Shared/Steps.md) 
+[Steps](../Shared/Steps/index.md)
 
-- 
+-
 
-[Flows (Basic)](Shared/Flows/Flows%20(Basic).md) 
+[Flows (Basic)](../Shared/Flows/Basic.md)
 
-[Functions](STR/Functions.md)
+[Functions](Functions.md)
 
-[Upgrades](STR/Upgrades.md)
+[Upgrades](Upgrades.md)
 
-[Presets](Shared/Presets.md) 
+[Presets](../Shared/Presets/index.md)
 
 - Note about helping take the sting out of Dev, like DevOps here - preset is reusable prior work
 - Making Integrations easier / tooled
 
-[Spaces (Basic)](Shared/Spaces/Spaces%20(Basic).md) 
+[Spaces (Basic)](../Shared/Spaces/Basic.md)
 
-[Spaces (Advanced)](Shared/Spaces/Spaces%20(Advanced).md)
+[Spaces (Advanced)](../Shared/Spaces/Advanced.md)

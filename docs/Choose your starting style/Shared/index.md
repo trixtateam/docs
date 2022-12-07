@@ -1,11 +1,11 @@
 # Shared
 
-[Presets](Shared/Presets.md)
+[Presets](../Shared/Presets/index.md)
 
-[Interactions](Shared/Interactions.md)
+[Interactions](../Shared/Interactions/index.md)
 
-[Spaces](Shared/Spaces.md)
+[Spaces](../Shared/Spaces/index.md)
 
-[Flows](Shared/Flows.md)
+[Flows](../Shared/Flows/index.md)
 
-[Steps](Shared/Steps.md)
+[Steps](../Shared/Steps/index.md)
