@@ -16,7 +16,7 @@ Presets help others learn, improves productivity and keeps your Space flexible.
 
 [Presets](../Shared/Presets/index.md)
 
-[Spaces (Basic)](../Shared/Spaces/Basic/index.md)
+[Spaces (Basic)](../Shared/Spaces/Basic.md)
 
 Common INT knowledge gaps
 

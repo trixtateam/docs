@@ -4,7 +4,7 @@
 
 -
 
-[Flows (Basic)](../Shared/Flows/Basic.md)
+[Flows (Basic)](../Shared/Flows/Basic/index.md)
 
 [Functions](Functions.md)
 

@@ -1,5 +1,5 @@
 # Flows
 
-[Flows (Basic)](Flows/Basic/index.md)
+[Flows (Basic)](Basic/index.md)
 
-[Flows (Advanced)](Flows/Advanced/index.md)
+[Flows (Advanced)](Advanced/index.md)
