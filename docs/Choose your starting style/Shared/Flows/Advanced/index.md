@@ -1,9 +1,10 @@
 # Flows (Advanced)
 
-<aside>
-💡 Be sure to have first gone through [Flows (Basic)](../Flows%20(Basic)/index.md) before continuing here…
+:::tip
 
-</aside>
+Be sure to have first gone through [Flows (Basic)](../Flows%20(Basic)/index.md) before continuing here…
+
+:::
 
 ## Running Flows and stopping them (process termination)
 
@@ -15,10 +16,11 @@ It is possible to disconnect steps, when this happens we will show them at the t
 
 ![Untitled](Untitled.png)
 
-<aside>
-💡 These currently only show on reload of the Flow. In future we will have them show immediately or prevent the possibility completely.
+:::tip
 
-</aside>
+These currently only show on reload of the Flow. In future we will have them show immediately or prevent the possibility completely.
+
+:::
 
 ## Versioning
 
@@ -58,11 +60,11 @@ View the dialog, make any adjustments and submit to save the settings accordingl
 
 ![Untitled](Untitled%204.png)
 
-<aside>
-💡 This entire section is more work for you than we would like. Ideally all things in Trixta should have sensible defaults to automatically give you great versioning settings and then only if you would like to tweak them, to let you do so.
+:::tip
 
-</aside>
+This entire section is more work for you than we would like. Ideally all things in Trixta should have sensible defaults to automatically give you great versioning settings and then only if you would like to tweak them, to let you do so.
 
+:::
 ### Settings
 
 The Settings panel will display what is current set on the Flow you are viewing. You can adjust them here.

@@ -6,11 +6,11 @@ In Trixta, a Role is a logical grouping of Interactions that an Agent can more e
 
 If you can imagine a Space that has 100 different ways of Interacting with it, it stands to reason that dividing that up into 10 Roles (each with 10 Interactions), would make a Role 10 times easier to understand and act on from the perspective of an Agent. Of course we wouldn’t just arbitrarily divide Interactions up like this, we would group them logically in a way that was appropriate for the Product or Organisation you are operating in.
 
-<aside>
-📕 **Role**
+:::info Role
+
 the function assumed or part played by a person or thing in a particular situation.
 
-</aside>
+:::
 
 And remember, because we explicitly allocate an Agent one or more Roles, that implies we deny them the ability to perform the other Roles. More often than not, the reasoning on where to draw the borders between Roles is around who or what should *not* have access to certain Interactions.
 
@@ -38,10 +38,11 @@ Your new Role should appear in the View:
 
 ![Untitled](Untitled%203.png)
 
-<aside>
-💡 Be sure to scroll down if you cannot see your new Role, initially it may be added to the bottom before later getting arranged alphabetically.
+:::tip
 
-</aside>
+Be sure to scroll down if you cannot see your new Role, initially it may be added to the bottom before later getting arranged alphabetically.
+
+:::
 
 ## Remove a Role
 
@@ -55,10 +56,11 @@ To Edit a Role, click on it in the view and the Role Settings panel should appea
 
 ![Untitled](Untitled%205.png)
 
-<aside>
-💡 Role settings are getting an upgrade, until then we have used tags to add experimental settings to roles which will become part of the form in future
+:::tip
 
-</aside>
+Role settings are getting an upgrade, until then we have used tags to add experimental settings to roles which will become part of the form in future
+
+:::
 
 Here is a complete list of tags that serve a function when added to a Role:
 
@@ -94,11 +96,11 @@ Once we trust that the Agent is who they say they are, we then test whether they
 - `auth:type:role_reaction` - means, delegate this to a Reaction on a role.
 - `auth:reaction:###` - where ### would be the name of the Reaction on the Role.
 
-<aside>
-💡 Before this section makes any sense, you’ll need to learn about Interactions which are coming up. These are also a lot easier to understand in the context of an example or two, once you are more familiar with Trixta in general.
+:::tip
 
-</aside>
+Before this section makes any sense, you’ll need to learn about Interactions which are coming up. These are also a lot easier to understand in the context of an example or two, once you are more familiar with Trixta in general.
 
+:::
 ## Role Grouping
 
 This is extremely useful when you have a situation where you want to use the same Role design but have more than one potential grouping of them, in which an Agent should have access to one, but not necessarily the other.
@@ -109,11 +111,11 @@ Note that an Agent could be allocated Role access to more than one group if we w
 
 To enable this feature on a Role you would add the tag `grouped` to it. Now whenever an Agent tries to join a Role, they would also be required to specify which group.
 
-<aside>
-💡 Currently it is required to add custom authorization to Roles that are Grouped. [Role Authorization](#role-authorization)
+:::tip
 
-</aside>
+Currently it is required to add custom authorization to Roles that are Grouped. [Role Authorization](#role-authorization)
 
+:::
 ## Role Cheatsheet
 
 ![Untitled](Untitled%207.png)

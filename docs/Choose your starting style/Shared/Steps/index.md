@@ -34,10 +34,11 @@ The categorisation above helps with that, especially since we have an idea of wh
 
 Reactions are easy to identify when modelled as a Role Reaction in Trixta. However, not everything is currently encapsulated conveniently in a Role! We have many Steps that cause Reactions that are not yet clearly indicated as such yet.
 
-<aside>
-💡 This is an area of work for us to make simple for you, our first step is to categorise which are which in the step library (ultimately, we would help by auto-encapsulating groups of corresponding Steps into sensible implicit Roles with Reactions).
+:::tip
 
-</aside>
+This is an area of work for us to make simple for you, our first step is to categorise which are which in the step library (ultimately, we would help by auto-encapsulating groups of corresponding Steps into sensible implicit Roles with Reactions).
+
+:::
 
 Instead we could sum up Steps that exhibit a Reaction-like behaviour as ones that communicate to anything outside of the Space, or anything that changes (or could possibly change) the state of something within. We say this is primary because Steps that do not communicate, or do not change state, don’t have any effect on the outside world, and so can’t be directly related to the primary purpose of the Space, which is always to have some sort of effect outside of it.
 

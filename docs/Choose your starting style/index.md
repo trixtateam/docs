@@ -20,10 +20,11 @@ The following table contains words and phrases that provide hints as to what eac
 | Bigger picture | Something in-between | Finer details |
 | Directing | Sequencing / Orchestrating | Configuring |
 
-<aside>
-💡 Having any one of the above styles waxed, will lower the difficulty of learning the others because you will better understand the context in which you are doing something
+:::tip
 
-</aside>
+Having any one of the above styles waxed, will lower the difficulty of learning the others because you will better understand the context in which you are doing something
+
+:::
 
 ## How the styles relate to areas within Trixta
 
@@ -52,10 +53,11 @@ The following table contains words and phrases that provide hints as to what eac
 - Functions
 - Spaces (Full)
 
-<aside>
-💡 You’ll notice that some styles overlap. This is deliberate in that it helps team members of different styles have common ground in which their solutions will come together.
+:::tip
 
-</aside>
+You’ll notice that some styles overlap. This is deliberate in that it helps team members of different styles have common ground in which their solutions will come together.
+
+:::
 
 ![Untitled](Untitled.png)
 

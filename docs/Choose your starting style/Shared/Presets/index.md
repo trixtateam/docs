@@ -6,18 +6,19 @@ Trixta is quick to build while maintaining a high level of quality thanks to the
 
 Presets play into this in that they are starting points for anything that has settings. They are pre-defined settings. Presets help others learn, improves productivity and keeps your Space flexible.
 
-<aside>
-📕 **Preset**
+:::info Preset
+
 a setting on a device that is adjusted or applied before use
 
-</aside>
+:::
 
 There is no doubt that new patterns and modules will emerge from the community, and for those who pioneer them, they won’t have many presets to guide them, but they are sure to leave some presets behind to help all that follow. This is one of the reasons learning about Presets can be found in all of the three onboarding styles - they help port over expertise to those who are beginners, so those who are strong in one area can assist those in another and vice versa through sharing useful Presets.
 
-<aside>
-💡 Presets are still in their most basic form in the IDE currently. There is work to be done around saving and setting presets for entire steps or a wide range of other Trixta parts. At this time we you can save presets and refer to them within individual settings in steps.
+:::tip
 
-</aside>
+Presets are still in their most basic form in the IDE currently. There is work to be done around saving and setting presets for entire steps or a wide range of other Trixta parts. At this time we you can save presets and refer to them within individual settings in steps.
+
+:::
 
 ## Preset view
 
@@ -51,10 +52,11 @@ Remove a Preset by clicking the trash can icon at the top right of the block.
 
 To Edit a Preset, click on it in the view and the Preset Settings panel should appear. 
 
-<aside>
-💡 At this time we only have a preset type: `config_service`. This is the most basic type which is just a JSON object. We will take greater advantage of Presets in future versions of the IDE.
+:::tip
 
-</aside>
+At this time we only have a preset type: `config_service`. This is the most basic type which is just a JSON object. We will take greater advantage of Presets in future versions of the IDE.
+
+:::
 
 ![Untitled](Untitled%205.png)
 

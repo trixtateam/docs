@@ -1,9 +1,10 @@
 # Spaces (Advanced)
 
-<aside>
-💡 Be sure to have first gone through [Spaces (Basic)](Basic.md)  before continuing here…
+:::tip
 
-</aside>
+Be sure to have first gone through [Spaces (Basic)](Basic.md)  before continuing here…
+
+:::
 
 custom init actions
 

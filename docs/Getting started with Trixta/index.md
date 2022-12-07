@@ -12,10 +12,11 @@ You’ll need to include a space domain to tell the IDE which space to connect t
 
 You can try the above link and, provided the space is running, you will be presented with a Login screen.
 
-<aside>
-💡 Your first load may take a while depending on a few factors. We are busy improving load speeds.
+:::tip
 
-</aside>
+Your first load may take a while depending on a few factors. We are busy improving load speeds.
+
+:::
 
 Before we continue past the login screen, let’s delve a little into what a `Space` is…
 
@@ -40,10 +41,11 @@ The address of the Space specified above is `trixta-demo.space.trixta.io` , this
 
 When presented with a Login dialog, you’ll need to enter in your identity (usually your email) and your password. If you haven’t been provided these, please reach out to your Trixta contact to arrange these credentials.
 
-<aside>
-💡 We have plans to include sign up / sign in via Google, etc.
+:::tip
 
-</aside>
+We have plans to include sign up / sign in via Google, etc.
+
+:::
 
 ![Untitled](Untitled.png)
 
@@ -71,24 +73,27 @@ The Navigation panel currently has two sub-panels, **Recent** and **Browse**.
 
 ![Untitled](Untitled%204.png)
 
-<aside>
-💡 At this time only Flows are listed in the recent list. In later versions we may see other items listed here and potentially a means to filter by type.
+:::tip
 
-</aside>
+At this time only Flows are listed in the recent list. In later versions we may see other items listed here and potentially a means to filter by type.
 
-<aside>
-💡 The IDE has its fair share of quirks still and sometimes needs a refresh, in this case the recent list helps you get right back to what you were working on.
+:::
 
-</aside>
+:::tip
+
+The IDE has its fair share of quirks still and sometimes needs a refresh, in this case the recent list helps you get right back to what you were working on.
+
+:::
 
 **Browse** shows a tree structure with everything inside the Space. This can be used to orientate, find and open various different views.
 
 ![Untitled](Untitled%205.png)
 
-<aside>
-💡 Currently we require that you click the refresh button (top right) after making a change like adding or removing something from the space. In future this will be automatic.
+:::tip
 
-</aside>
+Currently we require that you click the refresh button (top right) after making a change like adding or removing something from the space. In future this will be automatic.
+
+:::
 
 ### Search
 
@@ -130,10 +135,11 @@ Settings for anything that is selected is usually highly specific and dependent 
 
 ### Save Changes
 
-<aside>
-💡 Currently, in order for changes to take effect, you will need to make use of the green “Save Changes” button found at the end of a Setting tab. In future, we will make this automatic.
+:::tip
 
-</aside>
+Currently, in order for changes to take effect, you will need to make use of the green “Save Changes” button found at the end of a Setting tab. In future, we will make this automatic.
+
+:::
 
 ## Next…
 

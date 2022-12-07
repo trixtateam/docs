@@ -6,11 +6,11 @@ In Trixta, your Space and everyone / everything involved is working towards a go
 
 Whatever it is, it is more often than not achieved through the help of others and has an effect on them. We collectively call these others, Agents. Agents breathe life into your Space and can be people or entire systems.
 
-<aside>
-📕 **Agent**
+:::info Agent
+
 a person or thing that takes an active role or produces a specified effect.
 
-</aside>
+:::
 
 The purpose of an Agent is to fulfil one or many Roles in your Space.
 
@@ -38,14 +38,15 @@ Your new Agent should appear in the View:
 
 ![Untitled](Untitled%203.png)
 
-<aside>
-💡 At this point the Agent will go into a “Pending Verification” status, which means an email will be sent to that address for the owner to return and enter in a password for themselves to complete the process.
+:::tip
+
+At this point the Agent will go into a “Pending Verification” status, which means an email will be sent to that address for the owner to return and enter in a password for themselves to complete the process.
 
 We do this to ensure that the Agent is the owner of the email address and also to prevent us from ever knowing the Agents password (we instead save a salted hash)
 
 3rd party Authentication is also possible, more on that later…
 
-</aside>
+:::
 
 ## New Agent’s User Journey
 
@@ -65,10 +66,11 @@ Agents with the `trixta_ide_user` Role can access the IDE by browsing to it (See
 
 Agents can also interact with a Space through API calls or through other clients, and (provided the Role they are assuming isn’t unrestricted) they will have to provide some sort of authentication.
 
-<aside>
-💡 Trixta Roles can be set up to have their own unique authentication processes associated with them. So although Trixta provides some built in defaults that work from the start, you can extend the capability to whatever suits the organisation or product.
+:::tip
 
-</aside>
+Trixta Roles can be set up to have their own unique authentication processes associated with them. So although Trixta provides some built in defaults that work from the start, you can extend the capability to whatever suits the organisation or product.
+
+:::
 
 ## Forgot Password
 

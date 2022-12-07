@@ -24,10 +24,11 @@ To find a Flow, you have a few options:
 
 Using the Browse panel in the IDE, you can find Flows linked to Actions by expanding them.
 
-<aside>
-💡 In some Advanced cases a Flow can appear underneath a Reaction, more on that later.
+:::tip
 
-</aside>
+In some Advanced cases a Flow can appear underneath a Reaction, more on that later.
+
+:::
 
 ![Untitled](Untitled%201.png)
 
@@ -72,19 +73,21 @@ Whether a Step has an Inner section or not depends on the type of Step. For the 
 
 The sequence in which Steps occur when an Instance of a Flow runs, depends on how the Steps with Inners work. In general you can assume that it follows the line that joins the Steps from top to bottom.
 
-<aside>
-💡 Although other views might offer something different, by default Trixta controls the layout of the Flow for you. By doing so, we provide extra meaning through positioning and it is also easier to pick up and ‘read’ a Flow designed by someone else. This frees you up to focus on the desired outcome rather than the Flow itself.
+:::tip
 
-</aside>
+Although other views might offer something different, by default Trixta controls the layout of the Flow for you. By doing so, we provide extra meaning through positioning and it is also easier to pick up and ‘read’ a Flow designed by someone else. This frees you up to focus on the desired outcome rather than the Flow itself.
+
+:::
 
 ![Untitled](Untitled%208.png)
 
 The nesting that occurs by using Inners can also help you reduce information overload and help you focus on specific parts of the Flows.
 
-<aside>
-💡 Because Trixta is fundamentally functional, folding Steps up can also help you take increasingly broader / higher level views on the Flow. This is especially useful if you find a Flow is too complex at first, first fold the Flow up, get a handle on what is happening on the top most levels, then proceed to dial in the detail. Armed with an understanding of the context you can tackle smaller parts at a time. In cognitive psychology this is called chunking and helps with learning and comprehension.
+:::tip
 
-</aside>
+Because Trixta is fundamentally functional, folding Steps up can also help you take increasingly broader / higher level views on the Flow. This is especially useful if you find a Flow is too complex at first, first fold the Flow up, get a handle on what is happening on the top most levels, then proceed to dial in the detail. Armed with an understanding of the context you can tackle smaller parts at a time. In cognitive psychology this is called chunking and helps with learning and comprehension.
+
+:::
 
 ![Untitled](Untitled%209.png)
 
@@ -98,10 +101,11 @@ In Trixta, we typically Branch based on tags. All Steps output a tagged value wh
 
 Imagine for a moment you applied to attend a university. The response could include a variety of details like starting dates, costs, general notes, all these and more might be found inside the value, the tag on the other hand might be one of two: `accepted`, or `rejected`. This summarization is another form of chunking and Trixta makes it easy for you to see and Branch based on these tags.
 
-<aside>
-💡 It is possible to Branch on parts of the value too, however it is usually a sign that a Step could be improved or that the value is far too open ended or dynamic for us to assign a suitable tag other than say an “ok” or “error”. It would improve the Flow to attribute some general meaning to the data before proceeding.
+:::tip
 
-</aside>
+It is possible to Branch on parts of the value too, however it is usually a sign that a Step could be improved or that the value is far too open ended or dynamic for us to assign a suitable tag other than say an “ok” or “error”. It would improve the Flow to attribute some general meaning to the data before proceeding.
+
+:::
 
 In the follow screenshot we can see some branches and associated tags. It is worthwhile noting that we can also collapse Branches.
 
@@ -117,10 +121,11 @@ Even though we Branch, all Branches rejoin again eventually before continuing on
 
 The term Branching may invoke images of trees which appear to go from trunk to leaves and stop there, so it may be better to think of these Branches more like a circulatory system, starting at the heart which branch into smaller capillaries and then recombine again back towards the heart. A tree has a circulatory system so that analogy would still hold, it is just less intuitive to imagine the path from the leaves back towards the trunk.
 
-<aside>
-💡 Apart from music, a lot of our inspiration comes from observations in the natural sciences, we figure that the best examples of organization and systems that run well, are found in physics and biology.
+:::tip
 
-</aside>
+Apart from music, a lot of our inspiration comes from observations in the natural sciences, we figure that the best examples of organization and systems that run well, are found in physics and biology.
+
+:::
 
 We will discuss how to create Branches in more detail when learning about Steps, for now the most important thing to takeaway is that they are available, they redirect the Flow accordingly and they recombine.
 
@@ -160,12 +165,13 @@ Although the opening sentence still holds, there are two more things to consider
 
 ![Untitled](../../Steps/Untitled%203.png)
 
-<aside>
-💡 Whew, this section got quite theoretical and may seem daunting, hang in there! It is because it is abstract here, with real world examples and a bit of practise it’ll become clear.
+:::tip
+
+Whew, this section got quite theoretical and may seem daunting, hang in there! It is because it is abstract here, with real world examples and a bit of practise it’ll become clear.
 
 It is important to shed light on this abstract stuff first so that when looking at real world examples, we can refer you back to these patterns and you can start to see how this approach can be used over and over to solve all sorts of real world problems.
 
-</aside>
+:::
 
 ## Delete, Rename or Duplicate Flows
 
@@ -177,10 +183,11 @@ The Delete and Duplicate only have a Submit button. The Rename has an input to a
 
 ![Untitled](Untitled%2014.png)
 
-<aside>
-💡 These options are quite new and do not yet have good feedback. It will appear as if nothing happened in all three cases. The recommendation is to navigate away and back again. When duplicating a flow, the duplicate will have the same name with a timestamp suffix to make it unique. The easiest means of finding it would be to use the search on the original name. Both the original and the new duplicate should show up.
+:::tip
 
-</aside>
+These options are quite new and do not yet have good feedback. It will appear as if nothing happened in all three cases. The recommendation is to navigate away and back again. When duplicating a flow, the duplicate will have the same name with a timestamp suffix to make it unique. The easiest means of finding it would be to use the search on the original name. Both the original and the new duplicate should show up.
+
+:::
 
 ## Note about Save Flow
 
