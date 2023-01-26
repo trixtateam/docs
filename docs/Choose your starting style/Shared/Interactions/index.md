@@ -142,6 +142,31 @@ To get a basic idea, with the request settings you can do things like set the or
 
 Here is a useful link to get familiar with the kinds of things one can do: [https://react-jsonschema-form.readthedocs.io/en/latest/api-reference/uiSchema/](https://react-jsonschema-form.readthedocs.io/en/latest/api-reference/uiSchema/)
 
+There are reserved Trixta ```ui:options``` to change the mode of how [trixta-js-core](https://trixtateam.gitbook.io/trixta-js-core/) responds to incoming requests. By default if not specified, the mode is in ```replace``` mode, which means that only 1 request will be kept at a time, and each following request will replace the next one. If you wish to change this default behaviour to stack the requests you can set this mode with the following ```ui:options```
+
+```JSON
+{
+  "ui:options": { 
+    "mode": {
+      "type": "accumulate",
+      "limit": 10
+    } 
+  }
+}
+```
+
+OR 
+
+```JSON
+{
+  "ui:options": { 
+    "mode": {
+      "type": "replace"
+    } 
+  }
+}
+```
+
 **Response schema**
 
 The response schema uses the same syntax as the request schema, but instead is used for the reply back to the Person from the Space. This is an underdeveloped area of Trixta in that even if you were to set this, it would not have any noticeable effect other than improving documentation. At a later stage it will become more useful.
